@@ -1,0 +1,40 @@
+name: Atualizar Idade no Perfil
+
+# Roda automaticamente todo dia 18 de fevereiro às 09:00 (UTC),
+# e também pode ser disparado manualmente pela aba "Actions" no GitHub.
+on:
+  schedule:
+    - cron: "0 9 18 2 *"   # minuto hora dia mês dia-da-semana -> todo 18/02
+  workflow_dispatch: {}     # permite rodar manualmente para testar
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-idade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Rodar script de atualização de idade
+        run: python scripts/atualizar_idade.py --ci
+
+      - name: Verificar se a idade mudou
+        id: check
+        run: echo "mudou=$(cat idade_mudou.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Commitar e enviar alteração
+        if: steps.check.outputs.mudou == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🎂 Atualiza idade automaticamente"
+          git push
