@@ -14,7 +14,7 @@
 
 🎯 Meu objetivo é me tornar um desenvolvedor de software profissional
 
-🎂 Idade: <!--AGE_START-->17<!--AGE_END--> anos (atualizada automaticamente todo dia 18/02 🤖)
+🎂 Idade: <!--AGE_START-->17<!--AGE_END--> anos
 
 ---
 🛠️ Tecnologias e ferramentas
