@@ -16,7 +16,7 @@ Sou estudante do programa **+Devs2Blu (SESI/SENAI)**, com foco em **desenvolvime
 
 Além do código, participo com frequência de **ações filantrópicas** e tenho **boa oratória**, o que me ajuda a comunicar ideias com clareza e a trabalhar bem em equipe.
 
-🌍 Brasil &nbsp;|&nbsp; 🗣️ Português (nativo) · Inglês (C1)
+🌍 Brasil &nbsp;|&nbsp; 🗣️ Português (nativo) · Inglês (C1) · Alemão (A1)
 
 ---
 
@@ -40,8 +40,8 @@ Além do código, participo com frequência de **ações filantrópicas** e tenh
 ## 📌 Projeto em destaque
 
 <!-- Troque NOME-DO-REPOSITORIO pelo nome do repositório do seu projeto de portfólio -->
-<a href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SEU-USUARIO&repo=NOME-DO-REPOSITORIO&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Projeto em destaque" />
+<a href="https://github.com/LeonidasNoldin/controle-financeiro">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LeonidasNoldin&repo=controle-financeiro&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Projeto em destaque" />
 </a>
 
 ---
@@ -50,12 +50,12 @@ Além do código, participo com frequência de **ações filantrópicas** e tenh
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Estatísticas" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Linguagens mais usadas" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=LeonidasNoldin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Estatísticas" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeonidasNoldin&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Linguagens mais usadas" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=SEU-USUARIO&theme=tokyonight&hide_border=true&background=1a1b27" alt="Sequência de contribuições" />
+<img src="https://streak-stats.demolab.com?user=LeonidasNoldin&theme=tokyonight&hide_border=true&background=1a1b27" alt="Sequência de contribuições" />
 
 </div>
 
